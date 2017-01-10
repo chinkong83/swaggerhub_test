@@ -17,7 +17,7 @@ import java.io.InputStream;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T14:41:01.487Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T15:33:33.127Z")
 public abstract class PetApiService {
     public abstract Response addPet(Pet body,SecurityContext securityContext) throws NotFoundException;
     public abstract Response deletePet(Long petId,String apiKey,SecurityContext securityContext) throws NotFoundException;
