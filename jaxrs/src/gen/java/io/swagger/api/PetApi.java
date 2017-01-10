@@ -28,7 +28,7 @@ import javax.ws.rs.*;
 
 
 @io.swagger.annotations.Api(description = "the pet API")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T15:33:33.127Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T15:35:12.510Z")
 public class PetApi  {
    private final PetApiService delegate = PetApiServiceFactory.getPetApi();
 
@@ -43,7 +43,7 @@ public class PetApi  {
         })
     }, tags={ "pet", })
     @io.swagger.annotations.ApiResponses(value = { 
-        @io.swagger.annotations.ApiResponse(code = 200, message = "Invalid input", response = void.class) })
+        @io.swagger.annotations.ApiResponse(code = 501, message = "Invalid input", response = void.class) })
     public Response addPet(@ApiParam(value = "Pet object that needs to be added to the store" ,required=true) Pet body
 ,@Context SecurityContext securityContext)
     throws NotFoundException {

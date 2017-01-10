@@ -17,7 +17,7 @@ import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T15:33:33.127Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-01-10T15:35:12.510Z")
 public class PetApiServiceImpl extends PetApiService {
     @Override
     public Response addPet(Pet body, SecurityContext securityContext) throws NotFoundException {
